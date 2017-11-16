@@ -16,7 +16,7 @@ public class CameraController : MonoBehaviour
 		if (getScreenAspectRatio () < getCameraFocusAspectRatio ()) {
 			setCameraWidth (cameraFocus.bounds.size.x);
 		} else {
-			setCameraHeight (cameraFocus.bounds.size.x);
+			setCameraHeight (cameraFocus.bounds.size.y);
 		}
 	}
 
