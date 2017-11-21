@@ -572,7 +572,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: 71b01a80c73569f4ebeb5d5622b80cd2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -648,6 +648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f46529dfe3caa489b78e0783cb22b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  labyrinth: {fileID: 787722086}
 --- !u!1 &1322037746
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +703,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: 71b01a80c73569f4ebeb5d5622b80cd2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -997,7 +998,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: 71b01a80c73569f4ebeb5d5622b80cd2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1056,7 +1057,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: 71b01a80c73569f4ebeb5d5622b80cd2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

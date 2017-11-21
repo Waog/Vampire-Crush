@@ -3,10 +3,42 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	// Update is called once per frame
+	private int posX = 1;
+	private int posY = 2;
+
+	public LabyrinthController labyrinth;
+
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.RightArrow)) {
-			transform.position += new Vector3 (3f, 0, 0);
+		if (Input.GetKeyUp (KeyCode.RightArrow)) {
+			posX++;
 		}
+		if (Input.GetKeyUp (KeyCode.LeftArrow)) {
+			posX--;
+		}
+		if (Input.GetKeyUp (KeyCode.DownArrow)) {
+			posY++;
+		}
+		if (Input.GetKeyUp (KeyCode.UpArrow)) {
+			posY--;
+		}
+
+		if (posY < 0) {
+			posY = 0;
+		}
+
+		if (posY > labyrinth.rows.Count - 1) {
+			posY = labyrinth.rows.Count - 1;
+		}
+
+		if (posX < 0) {
+			posX = 0;
+		}
+		if (posX > labyrinth.rows [posY].Count - 1) {
+			posX = labyrinth.rows [posY].Count - 1;
+		}
+	}
+
+	void LateUpdate() {
+		transform.position = labyrinth.rows [posY] [posX].transform.position;
 	}
 }

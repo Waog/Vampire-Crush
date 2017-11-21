@@ -19,6 +19,7 @@ public class LabyrinthController : MonoBehaviour {
 		Debug.Log (rows.Count);
 		Debug.Log (rows[0].Count);
 		Debug.Log (rows[3].Count);
+		Debug.Log (rows[4][0]);
 	}
 
 	void Update () {
