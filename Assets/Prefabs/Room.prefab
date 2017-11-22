@@ -27,7 +27,7 @@ GameObject:
   - 212: {fileID: 21242840}
   m_Layer: 0
   m_Name: icon
-  m_TagString: Untagged
+  m_TagString: RoomIcon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

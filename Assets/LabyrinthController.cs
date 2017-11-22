@@ -6,13 +6,15 @@ public class LabyrinthController : MonoBehaviour {
 
 	public List<List<GameObject>> rows;
 
+	public PlayerController player;
+
 	// Use this for initialization
 	void Start () {
 		rows = new List<List<GameObject>> ();
 			
-		foreach (GameObject rowGO in GetChildrenByTag (gameObject, "row"))
+		foreach (GameObject rowGO in GetChildrenByTag (gameObject, "Row"))
 		{
-			List<GameObject> rooms = GetChildrenByTag (rowGO, "room");
+			List<GameObject> rooms = GetChildrenByTag (rowGO, "Room");
 			rows.Add (rooms);
 		}
 
@@ -23,9 +25,32 @@ public class LabyrinthController : MonoBehaviour {
 	}
 
 	void Update () {
-	
+
+		rows [player.posY] [player.posX].GetComponent<Room> ().raiseRoomState (Room.RoomState.Discovered);
+
+		foreach (GameObject room in GameObject.FindGameObjectsWithTag("Room"))
+		{
+			room.GetComponent<Room> ().hideIcon ();
+		}
+
+		if (player.posY > 0) {
+			rows [player.posY - 1] [player.posX].GetComponent<Room> ().raiseRoomState (Room.RoomState.Icon);
+		}
+
+		if (player.posY < rows.Count - 1) {
+			rows [player.posY + 1] [player.posX].GetComponent<Room> ().raiseRoomState (Room.RoomState.Icon);
+		}
+
+		if (player.posX > 0) {
+			rows [player.posY] [player.posX - 1].GetComponent<Room> ().raiseRoomState (Room.RoomState.Icon);
+		}
+
+		if (player.posX < rows [player.posY].Count - 1) {
+			rows [player.posY] [player.posX + 1].GetComponent<Room> ().raiseRoomState (Room.RoomState.Icon);
+		}
 	}
 
+	// TODO: move duplicated code
 	List<GameObject> GetChildrenByTag(GameObject parent, string tag) {
 		List<GameObject> result = new List<GameObject> ();
 

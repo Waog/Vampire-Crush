@@ -130,23 +130,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114160, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: row
+      value: Row
       objectReference: {fileID: 0}
     - target: {fileID: 110044, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 154126, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 103518, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 101424, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
@@ -208,23 +208,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114160, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: row
+      value: Row
       objectReference: {fileID: 0}
     - target: {fileID: 110044, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 154126, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 103518, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 101424, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
@@ -278,23 +278,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114160, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: row
+      value: Row
       objectReference: {fileID: 0}
     - target: {fileID: 110044, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 154126, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 103518, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 101424, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
@@ -342,25 +342,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114160, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
-      propertyPath: m_TagString
-      value: row
-      objectReference: {fileID: 0}
     - target: {fileID: 110044, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 154126, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 103518, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 101424, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
@@ -446,23 +442,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114160, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: row
+      value: Row
       objectReference: {fileID: 0}
     - target: {fileID: 110044, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 154126, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 103518, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 101424, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
@@ -518,6 +514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ccfccc1bb0e9b4ebb5ab9ed4681d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1293842028}
 --- !u!1 &1006407880
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +645,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f46529dfe3caa489b78e0783cb22b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  posX: 1
+  posY: 6
   labyrinth: {fileID: 787722086}
 --- !u!1 &1322037746
 GameObject:
@@ -1139,23 +1138,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114160, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: row
+      value: Row
       objectReference: {fileID: 0}
     - target: {fileID: 110044, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 154126, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 103518, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 101424, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
@@ -1209,23 +1208,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114160, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: row
+      value: Row
       objectReference: {fileID: 0}
     - target: {fileID: 110044, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 154126, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 103518, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 101424, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}
       propertyPath: m_TagString
-      value: room
+      value: Room
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f6d6a848d646b74eae00d16a1af8cce, type: 2}

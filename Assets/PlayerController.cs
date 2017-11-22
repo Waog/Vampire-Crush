@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	private int posX = 1;
-	private int posY = 2;
+	public int posX = 1;
+	public int posY = 6;
 
 	public LabyrinthController labyrinth;
 
