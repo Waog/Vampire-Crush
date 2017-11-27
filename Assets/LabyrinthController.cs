@@ -18,10 +18,6 @@ public class LabyrinthController : MonoBehaviour {
 			rows.Add (rooms);
 		}
 
-		Debug.Log (rows.Count);
-		Debug.Log (rows[0].Count);
-		Debug.Log (rows[3].Count);
-		Debug.Log (rows[4][0]);
 	}
 
 	void Update () {
@@ -30,7 +26,8 @@ public class LabyrinthController : MonoBehaviour {
 
 		foreach (GameObject room in GameObject.FindGameObjectsWithTag("Room"))
 		{
-			room.GetComponent<Room> ().hideIcon ();
+			Room roomScript = room.GetComponent<Room> ();
+			roomScript.hideIcon ();
 		}
 
 		if (player.posY > 0) {
@@ -61,5 +58,34 @@ public class LabyrinthController : MonoBehaviour {
 			}
 		}
 		return result;
+	}
+
+	void getRoomCoordinates(GameObject room, out int x, out int y) {
+		for (int curY = 0; curY < rows.Count; curY++) {
+			for (int curX = 0; curX < rows[curY].Count; curX++) {
+				if (room == rows [curY] [curX]) {
+					x = curX;
+					y = curY;
+					return;
+				}
+			}
+		}
+		throw new KeyNotFoundException ("The desired room was not in the labyrinth");
+	}
+
+	bool CoordinatesAreNeighbors(int pos1X, int pos1Y, int pos2X, int pos2Y) {
+		return (Mathf.Abs (pos1X - pos2X) + Mathf.Abs (pos1Y - pos2Y)) == 1;
+	}
+
+	public void OnRoomClicked(GameObject room) {
+
+		int roomX;
+		int roomY;
+		getRoomCoordinates(room, out roomX, out roomY);
+
+		if (CoordinatesAreNeighbors(player.posX, player.posY, roomX, roomY)) {
+			player.posX = roomX;
+			player.posY = roomY;
+		}
 	}
 }

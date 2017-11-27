@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 492260}
   - 212: {fileID: 21210652}
   - 114: {fileID: 11445120}
+  - 61: {fileID: 6154144}
   m_Layer: 0
   m_Name: Room
   m_TagString: Room
@@ -27,6 +28,7 @@ GameObject:
   - 4: {fileID: 452564}
   - 212: {fileID: 21273790}
   - 114: {fileID: 11421298}
+  - 61: {fileID: 6134992}
   m_Layer: 0
   m_Name: Room (1)
   m_TagString: Room
@@ -44,6 +46,7 @@ GameObject:
   - 4: {fileID: 429998}
   - 212: {fileID: 21242016}
   - 114: {fileID: 11457488}
+  - 61: {fileID: 6170618}
   m_Layer: 0
   m_Name: Room (3)
   m_TagString: Room
@@ -108,6 +111,7 @@ GameObject:
   - 4: {fileID: 482102}
   - 212: {fileID: 21246610}
   - 114: {fileID: 11461746}
+  - 61: {fileID: 6102430}
   m_Layer: 0
   m_Name: Room (2)
   m_TagString: Room
@@ -272,6 +276,62 @@ Transform:
   - {fileID: 464586}
   m_Father: {fileID: 450064}
   m_RootOrder: 0
+--- !u!61 &6102430
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154126}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3}
+--- !u!61 &6134992
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103518}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3}
+--- !u!61 &6154144
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101424}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3}
+--- !u!61 &6170618
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3}
 --- !u!114 &11421298
 MonoBehaviour:
   m_ObjectHideFlags: 1

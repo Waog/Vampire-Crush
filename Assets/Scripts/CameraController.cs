@@ -6,6 +6,20 @@ public class CameraController : MonoBehaviour
 
 	public Collider2D cameraFocus;
 
+	void Update(){
+//		if (Input.GetMouseButtonUp(0)){ // if left button pressed...
+//			Debug.Log("mouse up anywhere");
+//
+//			RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+//
+//			if(hit.collider != null)
+//			{
+//				// Debug.Log ("Target Position: " + hit.collider.gameObject.transform.position);
+//				Debug.Log ("Clicked Game Object: " + hit.collider.gameObject);
+//			}
+//		}
+	}
+
 	public void LateUpdate ()
 	{
 		transform.position = new Vector3 (cameraFocus.bounds.center.x, cameraFocus.bounds.center.y, transform.position.z);

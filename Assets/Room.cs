@@ -8,9 +8,12 @@ public class Room : MonoBehaviour {
 
 	public RoomState state = RoomState.Hidden;
 
+	private LabyrinthController labyrinth;
+
 	// Use this for initialization
 	void Start () {
-
+		labyrinth = transform.GetComponentInParent<LabyrinthController>();
+		Debug.Assert (labyrinth != null);
 	}
 	
 	// Update is called once per frame
@@ -55,4 +58,11 @@ public class Room : MonoBehaviour {
 		}
 		return result;
 	}
+
+	public void OnMouseUpAsButton() {
+		Debug.Log("OnMouseUpAsButton on Room: " + gameObject);
+		labyrinth.OnRoomClicked (gameObject);
+	}
+
+
 }
